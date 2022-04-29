@@ -1,7 +1,7 @@
-#Fetch Rewards Exercise: Backend SWE
-####Noah Backman
+# Fetch Rewards Exercise: Backend SWE
+#### Noah Backman
 
-##Installing and Running the Code
+## Installing and Running the Code
 1. Clone this repository to your machine.
 2. Ensure Docker is installed on your machine.
 3. Navigate to cloned repository and in the command line:
@@ -18,7 +18,7 @@ This microservice can be accessed through three endpoints.
   - request: None
   - response: `{str: int}`
 - `POST /transactions`: submit transaction data to database
-  - request:`{"payer": str, "points": int, "timestamp": datetime }`
+  - request: `{"payer": str, "points": int, "timestamp": datetime }`
   - response: None
 - `PUT /spend`: cash out rewards points
   - request: `{"points": int}`
